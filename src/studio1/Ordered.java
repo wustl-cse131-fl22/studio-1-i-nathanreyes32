@@ -18,6 +18,7 @@ public class Ordered {
 		
 		boolean isOrdered = true;
 		isOrdered = (x<y&&y<z);
+		isOrdered = (y>z&&x>y);
 		System.out.println(isOrdered);
 		
 		
